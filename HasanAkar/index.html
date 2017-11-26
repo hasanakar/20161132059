@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Emlak Portalı</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+
+	<header>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">AKAR EMLAK</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Anasayfa</a></li>
+      <li><a href="#">Satılık</a></li>
+      <li><a href="#">Kiralık</a></li>
+      
+      <!--
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Şubelerimiz <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">İzmir</a></li>
+          <li><a href="#">Ankara</a></li>
+          <li><a href="#">İstanbul</a></li>
+        </ul>
+      </li>
+  -->
+      <li><a href="#">Projelerimiz</a></li>
+      <li><a href="#">İletişim</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      
+      <form class="navbar-form navbar-left" role="search">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="..">
+    </div>
+    <button type="submit" class="btn btn-default">Bul</button>
+</form>
+
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Giriş</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Çıkış</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+
+<div class="container">
+
+
+<div class="row">
+  <div class="col-sm-4">
+	
+<form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+  	<p><b><h4>Kayıt Ekleme</b></p>
+
+  	<input type="text" class="form-control" placeholder="İlan No"><br><br>
+    <input type="text" class="form-control" placeholder="Adres"><br><br>
+  	<input type="text" class="form-control" placeholder="Fiyat"><br><br>
+  	<input type="text" class="form-control" placeholder="Yıl"><br><br>
+
+  
+  	<h6><label class="form-check-label"> <input class="form-check-input" type="checkbox" value=""> 1+0 &nbsp;</label>
+  	<label class="form-check-label"> <input class="form-check-input" type="checkbox" value=""> 1+1 &nbsp;</label>
+  	<label class="form-check-label"> <input class="form-check-input" type="checkbox" value=""> 2+1 &nbsp;</label>
+  	<label class="form-check-label"> <input class="form-check-input" type="checkbox" value=""> 3+1 &nbsp;</label><br></h6>
+
+
+  	<label class="form-check-label"> <input class="form-check-input" type="checkbox" value=""> Satılık &nbsp;</label>
+  	<label class="form-check-label"> <input class="form-check-input" type="checkbox" value=""> Kiralık &nbsp;</label><br>
+
+  	<label for="exampleFormControlFile1">Resim Ekle</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+  <br><br><button type="button" class="btn btn-primary">EKLE</button>
+
+</form>
+
+</div>
+  <div class="col-sm-4">
+	
+ <form class="navbar-form navbar-nav" role="search">
+  <div class="form-group">
+  	<p><b><h4>Kayıt Güncelle</b></p>
+  	
+    <input type="text" class="form-control" placeholder="İlan No">
+    <input class="btn btn-success" type="submit" value="ARA"><br>
+    <small>*Sadece güncellemek istediklerinizi doldurunuz.</small><br><br>
+
+    <input type="text" class="form-control" placeholder="Adres"><br><br>
+  	<input type="text" class="form-control" placeholder="Fiyat"><br><br>
+  	<input type="text" class="form-control" placeholder="Yıl"><br><br>
+
+  
+  	<h6><label class="form-check-label"> <input class="form-check-input" type="checkbox" value=""> 1+0 &nbsp;</label>
+  	<label class="form-check-label"> <input class="form-check-input" type="checkbox" value=""> 1+1 &nbsp;</label>
+  	<label class="form-check-label"> <input class="form-check-input" type="checkbox" value=""> 2+1 &nbsp;</label>
+  	<label class="form-check-label"> <input class="form-check-input" type="checkbox" value=""> 3+1 &nbsp;</label><br></h6>
+
+
+  	<label class="form-check-label"> <input class="form-check-input" type="checkbox" value=""> Satılık &nbsp;</label>
+  	<label class="form-check-label"> <input class="form-check-input" type="checkbox" value=""> Kiralık &nbsp;</label><br>
+
+  	<label for="exampleFormControlFile1">Resim Ekle</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+  <br><br><input class="btn btn-success" type="submit" value="GÜNCELLE">
+  </form>
+
+</div>
+
+  <div class="col-sm-4"></div>
+
+ 		<form class="navbar-form navbar-nav" role="search">
+  <div class="form-group">
+  	
+  	<br><br><br><br><br>
+  	<p><h4><b>Kayıt Silme</b></p>
+    <input type="text" class="form-control" placeholder="İlan No"><br><br>
+  </div>
+  <br><input class="btn btn-danger" type="submit" value="SİL">
+
+</form>
+
+</div>
+
+</div>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+  	
+  	<br><p><small><center> &#9400; Hasan Engin AKAR tarafından İnternet Programcılığı dersi ödevi olarak hazırlanmıştır.</center></small></p>
+</nav>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap.min.js"></script>
+
+</body>
+</html>
